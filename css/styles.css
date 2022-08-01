@@ -1,0 +1,139 @@
+#showroom {
+  padding: 0;
+}
+#showroom .car_img {
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.brand_img {
+  width: 100%;
+  height: 140px;
+  padding: 20px;
+  background-color: #1b1c1e;
+}
+.brand_img img {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+.brand_img span {
+  height: 100px;
+  color: #ecf0f0;
+  font-size: 4.7rem;
+  padding-left: 30px;
+}
+
+.brand_name_cars {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px 25px;
+}
+
+.tile {
+  /* background-color: #7f8c8d; */
+  height: auto;
+  width: auto;
+  /* padding: 10px; */
+  margin: auto;
+  border-radius: 2.5%;
+  color: #f3f2fc;
+}
+
+.description {
+  background-color: #bdc3c7;
+  padding: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f0;
+}
+
+.footer, .about_us, .header {
+  padding: 20px;
+  width: 100%;
+}
+
+.header {
+  height: 80px;
+  font-size: 1.2rem;
+  background-color: #3B5998;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+.header_menu {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ecf0f0;
+  float: right;
+}
+.header_menu div {
+  float: left;
+  padding-left: 20px;
+}
+.header_menu .menu_items {
+  text-decoration: none;
+  color: #ecf0f0;
+  font-weight: 600;
+}
+.header_menu .menu_items:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+
+.footer {
+  background-color: #1b1c1e;
+  color: #fff;
+  height: 40vh;
+}
+
+/* Filter Process */
+#filter_process {
+  padding: 20px;
+  height: 80px;
+}
+
+/* Styling the Gallery */
+/* Adding The Classes for the social media links */
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* End of Social links styling *//*# sourceMappingURL=styles.css.map */

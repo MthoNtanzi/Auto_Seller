@@ -1,0 +1,52 @@
+#showroom{
+    padding: 0;
+    
+
+    .car_img{
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.brand_img{
+    width: 100%;
+    height: 140px;
+    padding: 20px;
+    background-color: $dark;
+    img{
+        height: 100px;
+        width: 100px;
+        float: left;
+    }
+    span{
+        height: 100px;
+        color: $light;
+        font-size: 4.7rem;
+        padding-left: 30px;
+    }
+}
+
+.brand_name_cars{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px 25px;
+}
+
+.tile{
+    /* background-color: #7f8c8d; */
+    height: auto;
+    width: auto;
+    /* padding: 10px; */
+    margin: auto;
+    border-radius: 2.5%;
+    color: #f3f2fc;
+}
+
+
+
+.description{
+    background-color: #bdc3c7;
+    padding: 15px;
+}
