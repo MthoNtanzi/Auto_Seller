@@ -20,8 +20,8 @@
             </div>
         </header>
         <main>
-          <div class="container border p-3 mt-1">
-            <div id="radioFilter" class="col">
+          <div class="container  p-3 mt-1">
+            <form id="radioFilter" class="col">
               <span class="h4 pe-3">Filter</span>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="filterRadioOptions" id="allCheckBx" value="all" checked>
@@ -39,10 +39,10 @@
                 <input class="form-check-input" type="radio" name="filterRadioOptions" id="suvCheckBx" value="suv">
                 <label class="form-check-label" for="suvCheckBx">SUV</label>
               </div>
-            </div>
+            </form>
             
             <div class="col">
-              <select class="form-select" aria-label="Default select example">
+              <select class="form-select" id="carSelect" aria-label="Default select example">
                 <option selected>Choose a brand</option>
                 <option value="audi">Audi</option>
                 <option value="bmw">BMW</option>
@@ -51,9 +51,6 @@
                 <option value="vw">VW</option>
               </select>
             </div> 
-            <div>
-              <input class="button" type="button" value="GO" onclick="filter()">
-            </div>
           </div>
         
             <div id="welcome">
@@ -65,28 +62,28 @@
             
             <div id="showroom">
               <!-- The Audi brand -->
-              <div class="brand">
-                <div class="brand_img audi">
+              <div class="audi brand">
+                <div class="brand_img">
                   <img src="img/img_logo_audi.png" alt="Audi Logo">
                   <span>AUDI</span>
                 </div>
                 <div class="audi container mb-4">
                   <div class="row">
-                    <div class="tile hatchback col">
+                    <div class="hatchback tile col">
                       <img src="img/img_audi_a3_01.jpg" class="car_img"alt="The audi A3">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile sedan col">
+                    <div class="sedan tile col">
                       <img src="img/img_audi_a4_01.jpg" class="car_img"alt="The audi A4">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile suv col">
+                    <div class="suv tile col">
                       <img src="img/img_audi_q7_01.jpg" class="car_img"alt="The audi Q7">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -102,28 +99,28 @@
               <!-- ===================================================================================================================================================== -->
 
               <!-- The BMW brand -->
-              <div class="brand">
-                <div class="brand_img bmw">
+              <div class="bmw brand">
+                <div class="brand_img">
                   <img src="img/img_logo_bmw.png" alt="BMW Logo">
                   <span>BMW</span>
                 </div>
                 <div class="bmw container mb-2">
                   <div class="row">
-                    <div class="tile hatchback col">
+                    <div class="hatchback tile col">
                       <img src="img/img_bmw_1_01.jpg" class="car_img"alt="The audi A3">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile sedan col">
+                    <div class="sedan tile col">
                       <img src="img/img_bmw_3_01.jpg" class="car_img"alt="The audi A4">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile suv col">
+                    <div class="suv tile col">
                       <img src="img/img_bmw_x5_01.jpg" class="car_img"alt="The audi Q7">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -138,28 +135,28 @@
               <!-- ===================================================================================================================================================== -->
 
               <!-- The Mercedes brand -->
-              <div class="brand">
-                <div class="brand_img mercedes">
+              <div class="mercedes brand">
+                <div class="brand_img">
                   <img src="img/img_logo_merc.png" alt="Mercedes Logo">
                   <span>Mercedes Benz</span>
                 </div>
                 <div class="mercedes container mb-2">
                   <div class="row">
-                    <div class="tile hatchback col">
+                    <div class="hatchback tile col">
                       <img src="img/img_merc_a_01.jpg" class="car_img"alt="The Mercedes A Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile sedan col">
+                    <div class="sedan tile col">
                       <img src="img/img_merc_c_class_01.jpg" class="car_img"alt="The Mercedes C Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile suv col">
+                    <div class="suv tile col">
                       <img src="img/img_merc_g_01.jpg" class="car_img"alt="The Mercedes G Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -174,21 +171,21 @@
               <!-- ===================================================================================================================================================== -->
 
               <!-- The Volvo brand -->
-              <div class="brand">
-                <div class="brand_img volvo">
+              <div class="volvo brand">
+                <div class="brand_img">
                   <img src="img/img_logo_volvo.jpg" alt="Volvo Logo">
                   <span>VOLVO</span>
                 </div>
                 <div class="volvo container mb-2">
                   <div class="row">
-                    <div class="tile sedan col">
+                    <div class="sedan tile col">
                       <img src="img/img_volvo_s90_01.jpg" class="car_img"alt="The Volvo S90">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile suv col">
+                    <div class="suv tile col">
                       <img src="img/img_volvo_xc90_01.jpg" class="car_img"alt="The Volvo XC90">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -204,28 +201,28 @@
               <!-- ===================================================================================================================================================== -->
 
               <!-- The VW brand -->
-              <div class="brand">
-                <div class="brand_img VW">
+              <div class="vw brand">
+                <div class="brand_img">
                   <img src="img/img_logo_vw.png" alt="VW Logo">
                   <span>VW</span>
                 </div>
-                <div class="VW container mb-2">
+                <div class="vw container mb-2">
                   <div class="row">
-                    <div class="tile hatchback col">
+                    <div class="hatchback tile col">
                       <img src="img/img_vw_polo.jpg" class="car_img"alt="The VW Polo">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile sedan col">
+                    <div class="sedan tile col">
                       <img src="img/img_vw_jetta_01.jpg" class="car_img"alt="The VW Jetta">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="tile suv col">
+                    <div class="suv tile col">
                       <img src="img/img_vw_tig_01.jpg" class="car_img"alt="The VW Tiguan">
                       <div class="description">
                         <h3>The BMW 128i</h3>
