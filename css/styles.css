@@ -1,3 +1,13 @@
+.new_car {
+  max-width: 1080px;
+  margin: auto;
+  background-color: #615e5e;
+}
+.new_car img {
+  max-width: 720px;
+  margin: auto;
+}
+
 #showroom {
   padding: 0;
 }
