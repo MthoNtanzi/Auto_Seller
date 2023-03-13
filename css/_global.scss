@@ -15,6 +15,14 @@ body{
     font-size: 1.2rem;
     background-color: $primary;
 
+    span{
+        img{
+            height: 60px;
+            cursor: pointer;
+            margin-top: -10px;
+        }
+    }
+
     &_menu{
         list-style-type: none;
         text-decoration: none;
@@ -61,34 +69,30 @@ body{
 
 
 /* Adding The Classes for the social media links */
-.fa{
-    padding: 20px;
-    font-size: 25px;
+.social_links i{
+    padding: 5px;
+    font-size: 3rem;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
-    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
 }
-.fa-instagram {
-    background: #125688;
-    color: white;
+.fa-instagram:hover {
+    color: #8a3ab9;
 }
-.fa-youtube {
-    background: #bb0000;
-    color: white;
+.fa-youtube:hover {
+    color: #bb0000;
 }
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+.fa-facebook:hover {
+    color: #3B5998;
 }
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+.fa-twitter:hover {
+    color: #55ACEE;
 }
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
+.fa-linkedin:hover {
+    color: #007bb5;
 }
 
 /* End of Social links styling */
