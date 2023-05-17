@@ -1,5 +1,5 @@
 #showroom{
-    padding: 0;
+    padding: 2rem;
     
 
     .car_img{
@@ -15,30 +15,26 @@
 
 .brand_img{
     width: 100%;
-    height: 140px;
-    padding: 20px;
+    height: 110px;
+    padding: 10px;
     margin-bottom: 1rem;
-    background-color: $dark;
+    background-color: $accent;
     img{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
         float: left;
     }
     span{
         height: 100px;
         color: $light;
-        font-size: 4.7rem;
+        font-size: 4rem;
         padding-left: 30px;
     }
 }
 
 .tile{
-    /* background-color: #7f8c8d; */
-    min-width: 320px;
-    /* padding: 10px; */
-    margin: auto;
-    border-radius: 20rem;
     color: #f3f2fc;
+    margin-bottom: 10px;
 }
 
 

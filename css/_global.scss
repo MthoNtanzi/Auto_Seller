@@ -9,42 +9,23 @@ body{
     width: 100%;
 }
 
-.header{
-    @extend %box-layout;
+.heading{
     height: 80px;
     font-size: 1.2rem;
     background-color: $primary;
 
-    span{
-        img{
-            height: 60px;
-            cursor: pointer;
-            margin-top: -10px;
-        }
+
+    img{
+        height: 60px;
+        cursor: pointer;
+        margin: 10px;
     }
 
-    &_menu{
-        list-style-type: none;
-        text-decoration: none;
-        color: $light;
-        float: right;
-        & div{
-            float: left;
-            padding-left: 20px;
-        }
-
-        .menu_items{
-            text-decoration: none;
-            color: $light;
-            font-weight: 600;
-            &:hover{
-                text-decoration: underline 2px;
-            }
-        }
+    .navbar-custom{
+        margin-top: -10px;
+        background-color: $primary;
+        
     }
-    position: sticky;
-    top: 0px;
-    z-index: 10;
 }
 
 .about_us{
@@ -54,7 +35,7 @@ body{
 
 .footer{
     @extend %box-layout;
-    background-color: $dark;
+    background-color: $accent;
     color: #fff;
     height: 40vh;
 }

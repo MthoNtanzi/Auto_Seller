@@ -9,7 +9,7 @@
 }
 
 #showroom {
-  padding: 0;
+  padding: 2rem;
 }
 #showroom .car_img {
   margin: auto;
@@ -23,30 +23,26 @@
 
 .brand_img {
   width: 100%;
-  height: 140px;
-  padding: 20px;
+  height: 110px;
+  padding: 10px;
   margin-bottom: 1rem;
-  background-color: #1b1c1e;
+  background-color: #2b281b;
 }
 .brand_img img {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   float: left;
 }
 .brand_img span {
   height: 100px;
   color: #ecf0f0;
-  font-size: 4.7rem;
+  font-size: 4rem;
   padding-left: 30px;
 }
 
 .tile {
-  /* background-color: #7f8c8d; */
-  min-width: 320px;
-  /* padding: 10px; */
-  margin: auto;
-  border-radius: 20rem;
   color: #f3f2fc;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -60,46 +56,28 @@ body {
   background-color: #ecf0f0;
 }
 
-.footer, .about_us, .header {
+.footer, .about_us {
   padding: 20px;
   width: 100%;
 }
 
-.header {
+.heading {
   height: 80px;
   font-size: 1.2rem;
   background-color: #3B5998;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
 }
-.header span img {
+.heading img {
   height: 60px;
   cursor: pointer;
+  margin: 10px;
+}
+.heading .navbar-custom {
   margin-top: -10px;
-}
-.header_menu {
-  list-style-type: none;
-  text-decoration: none;
-  color: #ecf0f0;
-  float: right;
-}
-.header_menu div {
-  float: left;
-  padding-left: 20px;
-}
-.header_menu .menu_items {
-  text-decoration: none;
-  color: #ecf0f0;
-  font-weight: 600;
-}
-.header_menu .menu_items:hover {
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  background-color: #3B5998;
 }
 
 .footer {
-  background-color: #1b1c1e;
+  background-color: #2b281b;
   color: #fff;
   height: 40vh;
 }

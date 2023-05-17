@@ -6,19 +6,28 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">        <!-- JavaScript Bundle with Popper -->
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font Awesome Links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     </head>
     <body>
-        <header class="header">
-          <span><a href="index.html"><img src="img/logo.svg" alt="AutoSeller Logo"></a></span>
-          <div class="header_menu">
-            <div><a href="#" class="menu_items">Home</a></div>
-            <div><a href="showroom.html" class="menu_items">Showroom</a></div>
-            <div><a href="contact.html" class="menu_items">Contact</a></div>
-          </div>
-        </header>
+      <nav class="navbar sticky-top  navbar-expand-lg bg-body-tertiary heading">
+        <div class="container-fluid navbar-custom">
+            <a href="index.html" class="navbar-brand"><img src="img/logo.svg" alt="AutoSeller Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav" >
+                <a href="index.html" class="nav-link fw-medium fs-2" aria-current="page">Home</a>
+                <a href="#" class="nav-link active fw-medium fs-2">Showroom</a>
+                <a href="contact.html" class="nav-link fw-medium fs-2">Contact</a>
+            </div>
+            </div>
+        </div>
+      </nav>
         <main>
-          <div class="container  p-3 mt-1">
+          <div class="container p-3 mt-1">
             <form id="radioFilter" class="col">
               <span class="h4 pe-3">Filter</span>
               <div class="form-check form-check-inline">
@@ -62,26 +71,26 @@
               <!-- The Audi brand -->
               <div class="audi brand">
                 <div class="brand_img">
-                  <img src="img/img_logo_audi.png" alt="Audi Logo">
+                  <img src="img/img_audi-seeklogo.com.svg" alt="Audi Logo">
                   <span>AUDI</span>
                 </div>
                 <div class="audi container mb-4">
                   <div class="row">
-                    <div class="hatchback tile col">
+                    <div class="hatchback tile col-lg-4">
                       <img src="img/img_audi_a3_01.jpg" class="car_img"alt="The audi A3">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="sedan tile col">
+                    <div class="sedan tile col-lg-4">
                       <img src="img/img_audi_a4_01.jpg" class="car_img"alt="The audi A4">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="suv tile col">
+                    <div class="suv tile col-lg-4">
                       <img src="img/img_audi_q7_01.jpg" class="car_img"alt="The audi Q7">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -104,21 +113,21 @@
                 </div>
                 <div class="bmw container mb-2">
                   <div class="row">
-                    <div class="hatchback tile col">
+                    <div class="hatchback tile col-lg-4">
                       <img src="img/img_bmw_1_01.jpg" class="car_img"alt="The audi A3">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="sedan tile col">
+                    <div class="sedan tile col-lg-4">
                       <img src="img/img_bmw_3_01.jpg" class="car_img"alt="The audi A4">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="suv tile col">
+                    <div class="suv tile col-lg-4">
                       <img src="img/img_bmw_x5_01.jpg" class="car_img"alt="The audi Q7">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -140,21 +149,21 @@
                 </div>
                 <div class="mercedes container mb-2">
                   <div class="row">
-                    <div class="hatchback tile col">
+                    <div class="hatchback tile col-lg-4">
                       <img src="img/img_merc_a_01.jpg" class="car_img"alt="The Mercedes A Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="sedan tile col">
+                    <div class="sedan tile col-lg-4">
                       <img src="img/img_merc_c_class_01.jpg" class="car_img"alt="The Mercedes C Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="suv tile col">
+                    <div class="suv tile col-lg-4">
                       <img src="img/img_merc_g_01.jpg" class="car_img"alt="The Mercedes G Class">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -171,19 +180,19 @@
               <!-- The Volvo brand -->
               <div class="volvo brand">
                 <div class="brand_img">
-                  <img src="img/img_logo_volvo.jpg" alt="Volvo Logo">
+                  <img src="img/img_volvo-logo.svg" alt="Volvo Logo">
                   <span>VOLVO</span>
                 </div>
                 <div class="volvo container mb-2">
                   <div class="row">
-                    <div class="sedan tile col">
+                    <div class="sedan tile col-lg-4">
                       <img src="img/img_volvo_s90_01.jpg" class="car_img"alt="The Volvo S90">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="suv tile col">
+                    <div class="suv tile col-lg-4">
                       <img src="img/img_volvo_xc90_01.jpg" class="car_img"alt="The Volvo XC90">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -201,26 +210,26 @@
               <!-- The VW brand -->
               <div class="vw brand">
                 <div class="brand_img">
-                  <img src="img/img_logo_vw.png" alt="VW Logo">
+                  <img src="img/img_volkswagen_logo.svg" alt="VW Logo">
                   <span>VW</span>
                 </div>
                 <div class="vw container mb-2">
                   <div class="row">
-                    <div class="hatchback tile col">
+                    <div class="hatchback tile col-lg-4">
                       <img src="img/img_vw_polo.jpg" class="car_img"alt="The VW Polo">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="sedan tile col">
+                    <div class="sedan tile col-lg-4">
                       <img src="img/img_vw_jetta_01.jpg" class="car_img"alt="The VW Jetta">
                       <div class="description">
                         <h3>The BMW 128i</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ea aspernatur blanditiis voluptatem assumenda, amet enim quam architecto aut libero quaerat tenetur perferendis, quia eum veritatis nostrum animi sunt. Provident!</p>
                       </div>
                     </div>
-                    <div class="suv tile col">
+                    <div class="suv tile col-lg-4">
                       <img src="img/img_vw_tig_01.jpg" class="car_img"alt="The VW Tiguan">
                       <div class="description">
                         <h3>The BMW 128i</h3>
@@ -235,20 +244,18 @@
             </div>
         </main>
         <footer class="footer">
-            <div id="thanks">
-                <p>Thank you for visiting our page</p>
-                <p>Follow our social media</p>
-                <div class="social_links">
-                  <ul>
-                    <li href="#" class="fa fa-facebook"></li>
-                    <li href="#" class="fa fa-twitter"></li>
-                    <li href="#" class="fa fa-linkedin"></li>
-                    <li href="#" class="fa fa-youtube"></li>
-                    <li href="#" class="fa fa-instagram"></li>
-                  </ul>
-                </div>
-            </div>
-        </footer>
+          <div id="thanks">
+              <p>Thank you for visiting our page</p>
+              <p>Follow our social media</p>
+              <div class="social_links">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-instagram"></i>
+              </div>
+          </div>
+      </footer>
 
         <script src="js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
