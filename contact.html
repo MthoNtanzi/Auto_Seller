@@ -26,11 +26,11 @@
                 </div>
             </div>
         </nav>
-        <main>
+        <main class="contactPage">
             <form action="" class="p-4">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter name here...">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter name here...">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -38,12 +38,13 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Contact</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter contact No. here...">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter contact No. here...">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <button type="submit" class="btn btn-dark" style="width: 150px;" onclick="GoToHomePage()">Submti Form</button>
             </form>
         </main>
         <footer class="footer">
@@ -59,5 +60,12 @@
                 </div>
             </div>
         </footer>
+        <script>
+            function GoToHomePage()
+            {
+                alert("Information Submitted\nThank You!!");
+                window.location = 'index.html';   
+            }
+        </script>
     </body>
 </html>

@@ -8,6 +8,15 @@
   margin: auto;
 }
 
+.contactPage {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/img_audi_q7_02.jpg");
+  min-height: 80vh;
+  color: wheat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #showroom {
   padding: 2rem;
 }
@@ -48,6 +57,10 @@
 .description {
   background-color: #bdc3c7;
   padding: 15px;
+}
+
+#radioField {
+  background-color: #ecf0f0;
 }
 
 body {
