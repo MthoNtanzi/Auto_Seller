@@ -29,6 +29,11 @@
 .brand {
   margin: 1rem auto;
 }
+@media only screen and (max-width: 520px) {
+  .brand_name {
+    display: none;
+  }
+}
 
 .brand_img {
   width: 100%;
